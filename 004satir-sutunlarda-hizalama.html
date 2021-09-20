@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Satır Sütun Hizalama</title>
+
+    <style>
+
+        body{
+            text-align: center;
+        }
+
+        .row{
+            height: 8rem;
+            background-color: rgba(255,0,0,.1);
+            margin-bottom: 2rem;
+        }
+
+        div[class*="col"]{
+            background-color: rgba(86,61,124,.15);
+            border: 1px solid rgba(86,61,124,.2);
+            padding: 0.5rem;
+        }
+
+    </style>
+
+
+  </head>
+  <body>
+   
+
+    <!-- Dikey Hizalama -->
+    <div class="container">
+        <!-- Satırı Üste Hizalama -->
+        <div class="row align-items-start">
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+
+    <!-- Satırı Ortaya Hizalama -->
+    <div class="row align-items-center">
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+    </div>
+
+    <!-- Satırı Alta Hizalama -->
+    <div class="row align-items-end">
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+    </div>
+
+    <!-- Sütunları Dikey Hizalama -->
+    <div class="row">
+        <div class="col align-self-start">col</div>
+        <div class="col align-self-center">col</div>
+        <div class="col align-self-end">col</div>
+    </div>
+
+</div>
+
+    <hr>
+    <hr>
+    <hr>
+
+    <!-- Yatay Hizalama -->
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-3">col</div>
+            <div class="col-3">col</div>
+            <div class="col-3">col</div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3">col</div>
+            <div class="col-3">col</div>
+            <div class="col-3">col</div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-3">col</div>
+            <div class="col-3">col</div>
+            <div class="col-3">col</div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-3">col</div>
+            <div class="col-3">col</div>
+            <div class="col-3">col</div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-3">col</div>
+            <div class="col-3">col</div>
+            <div class="col-3">col</div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
